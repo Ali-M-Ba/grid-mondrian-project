@@ -62,6 +62,17 @@
     .item-8 {
       grid-row: span 2;
     }
+    @media (max-width: 650px) {
+      body {
+        flex-direction: column;
+      }
+      .container {
+        height: 387.5px;
+        width: 387.5px;
+        grid-template-columns: 160px 99px 76.5px 25px;
+        grid-template-rows: 207px 65px 77.5px 11px;
+      }
+    }
   </style>
 </head>
 
